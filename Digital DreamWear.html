@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital DreamWear - Your Ultimate Digital Clothing Store</title>
+<link href="HOMEPAGE.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<nav>
+		<ul>
+			<li><a href="Digital DreamWear.html">Home</a></li>
+			<li><a href="Products.html">Products</a></li>
+			<li><a href="BlogPage.html">Blog</a></li>
+			<li><a href="FAQ.html">FAQ</a></li>
+		  <li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Slider -->
+	<div class="slider" id="slider">
+  <img src="../Dream Weaver/Kaskras_Painting_modern_War_fighting_natural_lighting_big_battl_756d4d20-3d3c-4cf3-a83a-9c6327028415.png" alt="Slider Image 1" class="active">
+  <img src="../Dream Weaver/STOPICANTAIM_Floral_Snakes_canvas_wall_art_-_flower_wall_art_ca_902911d1-bcf8-4eb7-9aff-f36c3e8252bb.png" alt="Slider Image 2">
+  <img src="../Dream Weaver/HobbesSR_stargazing_under_the_sea._desktop_background_wallpaper_2f041688-cdd6-4b05-9426-de07608d623b.png" alt="Slider Image 3">
+</div>
+
+<script>
+  const slider = document.getElementById("slider");
+  const images = slider.getElementsByTagName("img");
+  let currentIndex = 0;
+
+  function changeImage() {
+    images[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.add("active");
+  }
+
+  setInterval(changeImage, 3000); // Change the image every 3 seconds
+</script>
+
+
+	<!-- Shop now section -->
+	<section class="shop-now">
+		<h2>Shop Now</h2>
+		<p>Discover our latest digital clothing collection.</p>
+		<a href="#" class="button">Shop Now</a>
+	</section>
+
+	<!-- Products section -->
+	<section class="products">
+		<div class="product">
+			<img src="../Dream Weaver/STOPICANTAIM_A_blank_18x24_poster_Surronded_by_roses_1b905c16-f4d0-4cfd-ba12-b30dab84b51c.png" alt="Product 1">
+			<h3>Product 1</h3>
+			<p>Description of Product 1</p>
+			<a href="Products.html" class="button">Buy Now</a>
+		</div>
+		<div class="product">
+			<img src="../Dream Weaver/Andrei_A_bmw_electric_car_in_2025._An_oil_painting_style_with_d_56a61bb8-6bc0-448e-a138-9034b7ee34a9.png" alt="Product 2">
+			<h3>Product 2</h3>
+			<p>Description of Product 2</p>
+			<a href="Products.html" class="button">Buy Now</a>
+		</div>
+		<div class="product">
+			<img src="../Dream Weaver/Kaskras_Painting_modern_War_fighting_natural_lighting_big_battl_756d4d20-3d3c-4cf3-a83a-9c6327028415.png" alt="Product 3">
+			<h3>Product 3</h3>
+			<p>Description of Product 3</p>
+			<a href="#" class="button">Buy Now</a>
+	  </div>
+		<div class="product">
+			<img src="../Dream Weaver/Screenshot 2023-04-11 130749.png" alt="Product 4">
+			<h3>Product 4</h3>
+			<p>Description of Product 4</p>
+			<a href="#" class="button">Buy Now</a>
+		</div>
+		<div class="product">
+			<img src="../Dream Weaver/STOPICANTAIM_a_black_cat_sitting_in_a_field_of_flowersstudio_gh_bff6a525-38e4-47b2-9b38-0760a61bf7d8.png" alt="Product 5">
+			<h3>Product 5</h3>
+			<p>Description of Product 5</p>
+			<a href="#" class="button">Buy Now</a>
+		</div>
+		<div class="product">
+			<img src="../Dream Weaver/STOPICANTAIM_Floral_Snakes_canvas_wall_art_-_flower_wall_art_ca_902911d1-bcf8-4eb7-9aff-f36c3e8252bb.png" alt="Product 6">
+			<h3>Product 6</h3>
+			<p>Description of Product 6</p>
+			<a href="#" class="button">Buy Now</a>
+		</div>
+	</section>
+
+	<!-- About section -->
+	<section class="about">
+		<h2>About Digital DreamWear</h2>
+		<img src="../Dream Weaver/lindsey_a_logo_of_a_trippy_soft_futuristic_illustration_with_bu_7b8c485f-012a-4dfb-b118-27148eacd5d6.png" alt="About Image">
+		<p>Digital DreamWear is your ultimate destination for digital clothing. Our mission is to combine fashion and technology to create a new kind of clothing that allows you to express yourself in ways you never thought possible
+		  <script>
+  // Paste the JavaScript code here
+</script>
+
+			
+</body>
+	</html>
