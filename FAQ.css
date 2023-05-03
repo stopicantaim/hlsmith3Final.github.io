@@ -1,0 +1,151 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.navbar a {
+  font-size: 18px;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #f2f2f2;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.hero p {
+  margin: 20px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Company info section styles */
+.company-info {
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.company-info-container {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.company-info h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.company-info p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Why choose us section styles */
+.why-choose-us {
+  background-color: #f2f2f2;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.why-choose-us ul {
+  max-width: 960px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.why-choose-us li {
+  flex-basis: calc(20% - 10px);
+  margin-bottom: 20px;
+}
+
+.why-choose-us li::before {
+  content: "\2022";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #007bff;
+}
+  
+/* Social links styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 20px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.social-links a:last-of-type {
+  margin-right: 0;
+}
+  
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align:
+}
+
